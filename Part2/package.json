@@ -31,7 +31,9 @@
     "ffjavascript": "^0.2.52"
   },
   "jest": {
+    "testTimeout": 10000,
     "globals": {
+      "testTimeout": 10000,
       "ts-jest": {
         "isolatedModules": false
       }
